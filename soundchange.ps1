@@ -8,9 +8,9 @@ $audioDevice = Get-AudioDevice -Playback
 # the logic, you can add more devices etc.
 if ($audioDevice.ID -eq $AudioDevice_A) 
 {
-    Set-AudioDevice -Index 2
+    Set-AudioDevice $AudioDevice_B
 } 
 else 
 {
-    Set-AudioDevice -Index 1
+    Set-AudioDevice $AudioDevice_A
 }
