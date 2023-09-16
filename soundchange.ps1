@@ -8,11 +8,9 @@ $audioDevice = Get-AudioDevice -Playback
 # the logic, you can add more devices etc.
 if ($audioDevice.ID -eq $AudioDevice_A) 
 {
-    Write-Host "Setting device to 2"
     Set-AudioDevice -Index 2
 } 
 else 
 {
-    Write-Host "Setting device to 1"
     Set-AudioDevice -Index 1
 }
