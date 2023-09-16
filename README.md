@@ -13,6 +13,6 @@ To find out audio devices in powershell: `Get-AudioDevices -List`
 
 Replace the $AudioDevice_A and B with your AudoDevice IDs in soundchange.ps1.
 
-script.vba opens powershell and runs the powershell script. I ended up using vba instead of bat to make it "cleaner", because vba doesn't open Command Prompt at all.
+script.vbs opens powershell and runs the powershell script. I ended up using vbs instead of bat to make it "cleaner", because vba doesn't open Command Prompt at all.
 
 
