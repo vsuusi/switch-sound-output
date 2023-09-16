@@ -1,1 +1,0 @@
-CreateObject("Wscript.Shell").Run "soundchange.bat",0,True
