@@ -9,7 +9,7 @@ So I created a script for it to reduce the steps to only doubleclicking a deskto
 For now this scipt depends on https://github.com/frgnca/AudioDeviceCmdlets, its installation is required for this script to work. For more info please visit the link.
 I am planning to make the script independent from any dependencies in the future.
 
-To find out audio devices in powershell: `Get-AudioDevices -List`
+To find out audio devices in powershell: `Get-AudioDevice -List`
 
 Replace the $AudioDevice_A and B with your AudoDevice IDs in soundchange.ps1.
 
